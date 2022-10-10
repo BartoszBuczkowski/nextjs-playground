@@ -1,0 +1,5 @@
+.back-button {
+  width: 50rem;
+  max-width: calc(100vw - 2rem);
+  margin: 1rem auto;
+}

@@ -1,0 +1,30 @@
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  width: 50rem;
+  max-width: calc(100vw - 2rem);
+  margin: 1rem auto;
+}
+
+.breadcrumbs li::after {
+  content: "-";
+  margin: 0 1rem;
+}
+
+.breadcrumbs li:last-child::after {
+  display: none;
+}
+
+.container {
+  background: hsl(0deg 0% 98%);
+  color: hsl(0deg 0% 20%);
+  width: 50rem;
+  max-width: calc(100vw - 2rem);
+  margin: auto;
+  padding: 2rem 4rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
